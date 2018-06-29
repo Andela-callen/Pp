@@ -23,7 +23,7 @@ class Skills extends React.Component {
                                 <div className="circle"><i className="fab fa-js"></i></div>
                                 <h3>Web Design</h3>
 
-                                <p>To be Done</p>
+                                <p>under construction...</p>
                             </div>
                         </div>
                         <div className="col-12 col-md-6 col-lg-3">
@@ -31,7 +31,7 @@ class Skills extends React.Component {
                                 <div className="circle"><i className="fab fa-html5"></i></div>
                                 <h3>Coding</h3>
 
-                                <p>To be Done</p>
+                                <p>under construction...</p>
                             </div>
                         </div>
                         <div className="col-12 col-md-6 col-lg-3">
@@ -39,7 +39,7 @@ class Skills extends React.Component {
                                 <div className="circle"><i className="fab fa-react"></i></div>
                                 <h3>Clean Code</h3>
 
-                                <p>To be Done</p>
+                                <p>under construction...</p>
                             </div>
                         </div>
                         <div className="col-12 col-md-6 col-lg-3">
@@ -47,7 +47,7 @@ class Skills extends React.Component {
                                 <div className="circle"><i className="fa fa-database"></i></div>
                                 <h3>Database</h3>
 
-                                <p>To be done</p>
+                                <p>under construction...</p>
                             </div>
                         </div>
                     </div>

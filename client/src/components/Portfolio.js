@@ -49,7 +49,7 @@ class Portfolio extends React.Component {
 
                   <ul className="repo_ul">
                     {this.state.repos.map(repo =>
-                    <a href={`${repo.html_url}`} key={repo}>
+                    <a href={`${repo.html_url}`} key={repo.id}>
                     <li>{repo.name}</li>
                     </a>)}
                   </ul>

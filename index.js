@@ -7,9 +7,7 @@ import routes from './config/route';
 
 require('dotenv').config();
 
-const env = process.env.NODE_ENV = process.env.NODE_ENV || 'development';
-
-console.log(env);
+const env = process.env.NODE_ENV || 'development';
 
 const app = express();
 const router = express.Router();
