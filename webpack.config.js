@@ -201,9 +201,9 @@ module.exports = (env = {}, argv) => {
         new plugins.progress({
           color: '#5C95EE'
         }),
-        new plugins.dotenv({
-          path: './.env'
-        })
+        // new plugins.dotenv({
+        //   path: './.env'
+        // })
       ];
 
       const production = [
