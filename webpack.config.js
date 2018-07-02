@@ -3,7 +3,7 @@ const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
-// const Dotenv = require('dotenv-webpack');
+const Dotenv = require('dotenv-webpack');
 
 const devMode = process.env.NODE_ENV !== 'production';
 
@@ -46,12 +46,25 @@ module.exports = {
     }),
     new webpack.DefinePlugin({
       'process.env': {
-        NODE_ENV: JSON.stringify(process.env.NODE_ENV || 'development')
+        NODE_ENV: JSON.stringify(process.env.NODE_ENV || 'development'),
+        FACEBOOK_URL: JSON.stringify(process.env.FACEBOOK_URL),
+        GOOGLE_URL: JSON.stringify(process.env.GOOGLE_URL),
+        TWITTER_URL: JSON.stringify(process.env.TWITTER_URL),
+        LINKEDIN_URL: JSON.stringify(process.env.LINKEDIN_URL),
+        GITHUB_URL: JSON.stringify(process.env.GITHUB_URL),
+        IG_URL: JSON.stringify(process.env.IG_URL),
+        GMAIL_ACCT: JSON.stringify(process.env.GMAIL_ACCT),
+        YAHOO_EMAIL: JSON.stringify(process.env.YAHOO_EMAIL),
+        SENDGRID_API_KEY: JSON.stringify(process.env.SENDGRID_API_KEY),
+        PHONE: JSON.stringify(process.env.PHONE),
+        MAILTO: JSON.stringify(process.env.MAILTO),
+        GITHUB_NAME: JSON.stringify(process.env.GITHUB_NAME),
+        GITHUB_ACESS_TOKEN: JSON.stringify(process.env.GITHUB_ACESS_TOKEN),
       }
     }),
-    // new Dotenv({
-    //   path: './.env'
-    // })
+    new Dotenv({
+      path: './.env'
+    })
   ],
   module: {
     rules: [

@@ -21,7 +21,7 @@ class Skills extends React.Component {
                         <div className="col-12 col-md-6 col-lg-3">
                             <div className="box">
                                 <div className="circle"><i className="fab fa-js"></i></div>
-                                <h3>Web Design</h3>
+                                <h3>JavaScript</h3>
 
                                 <p>under construction...</p>
                             </div>
@@ -29,7 +29,7 @@ class Skills extends React.Component {
                         <div className="col-12 col-md-6 col-lg-3">
                             <div className="box">
                                 <div className="circle"><i className="fab fa-html5"></i></div>
-                                <h3>Coding</h3>
+                                <h3>Html5</h3>
 
                                 <p>under construction...</p>
                             </div>
@@ -37,7 +37,7 @@ class Skills extends React.Component {
                         <div className="col-12 col-md-6 col-lg-3">
                             <div className="box">
                                 <div className="circle"><i className="fab fa-react"></i></div>
-                                <h3>Clean Code</h3>
+                                <h3>ReactJS</h3>
 
                                 <p>under construction...</p>
                             </div>

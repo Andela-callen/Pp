@@ -31,15 +31,14 @@ const About = () => {
                             </div>
                             <div>
                                 <p>
-                                I am a software developer developing applications and learning new
-                                skills. I possess strong problem-solving and analytical skills,
-                                paying close attention to details in order to come up with the
-                                best alternative to business challenges. I have exercised these
+                                I am a software developer, building applications and learning new
+                                technologies. I possess strong problem-solving and analytical
+                                skills, paying close attention to details in order to come up with
+                                the best alternative to business challenges. I have exercised these
                                 skills while working on several projects. I have had experience
                                 using various programming tools such as React, Nodejs and database
                                 (PostgreSQL, mongoDB, MySQL,etc) to develop applications. During my
-                                Masters Degree, I developed a
-                                <a href="https://www.academia.edu/18234474/ASSET_MANAGEMENT_SYSTEM_USING_RASPBERRY_PI_Presentation_">
+                                Masters Degree, I developed a <a href="https://www.academia.edu/18234474/ASSET_MANAGEMENT_SYSTEM_USING_RASPBERRY_PI_Presentation_">
                                 'proof of concept'</a> of an asset management system
                                 using Raspberry Pi and PiCamera as Front-end QR code reader.
                                 I contributed to projects such as: Syncano <a href="https://syncano.io/#/">
