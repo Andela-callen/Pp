@@ -1,0 +1,17 @@
+{
+    "presets": [
+        "@babel/react",
+        [
+            "@babel/env",
+            {
+                "targets": {
+                    "browsers": "last 2 Chrome versions"
+                }
+            }
+        ]
+    ],
+    "plugins": [
+        "@babel/plugin-syntax-object-rest-spread",
+        "@babel/plugin-proposal-class-properties"
+    ]
+}
